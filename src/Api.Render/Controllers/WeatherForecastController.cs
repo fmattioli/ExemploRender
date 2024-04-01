@@ -29,11 +29,5 @@ namespace Api.Render.Controllers
             })
             .ToArray();
         }
-
-        [HttpGet(Name = "getTest")]
-        public string GetTest()
-        {
-            return "Está funcionando tudo corretamente!!!";
-        }
     }
 }
